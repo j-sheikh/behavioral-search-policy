@@ -1,0 +1,3 @@
+[submodule "hulc"]
+	path = hulc
+	url = https://github.com/lukashermann/hulc
