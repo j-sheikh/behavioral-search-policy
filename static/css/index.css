@@ -78,9 +78,9 @@ body {
     text-decoration: underline;
 }
 
-.author-block {
+/* .author-block {
   display: inline-block;
-}
+} */
 
 .publication-banner img {
 }
@@ -154,4 +154,25 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+
+.author-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.auth1 { grid-area: 1 / 1 / 2 / 2; }
+.auth2 { grid-area: 1 / 2 / 2 / 3; }
+.auth3 { grid-area: 2 / 1 / 3 / 2; }
+.auth4 { grid-area: 2 / 2 / 3 / 3; }
+
+.author-name {
+  font-weight: bold;
+}
+.author-mail {
+  font-family: monospace;
 }
