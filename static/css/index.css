@@ -158,14 +158,21 @@ body {
 
 
 .author-grid {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 5px;
-grid-row-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  margin-bottom: 20px;
 }
 
 .auth1 { grid-area: 1 / 1 / 2 / 2; background-color: red}
 .auth2 { grid-area: 1 / 2 / 2 / 3; background-color: yellow}
 .auth3 { grid-area: 2 / 1 / 3 / 2; background-color: green}
 .auth4 { grid-area: 2 / 2 / 3 / 3; background-color: blue}
+
+.author-name {
+  font-weight: bold;
+}
+.author-mail {
+  font-family: monospace;
+}
