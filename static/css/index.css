@@ -165,7 +165,7 @@ grid-column-gap: 5px;
 grid-row-gap: 5px;
 }
 
-.auth1 { grid-area: 1 / 1 / 2 / 2; }
-.auth2 { grid-area: 1 / 2 / 2 / 3; }
-.auth3 { grid-area: 2 / 1 / 3 / 2; }
-.auth4 { grid-area: 2 / 2 / 3 / 3; }
+.auth1 { grid-area: 1 / 1 / 2 / 2; background-color: red}
+.auth2 { grid-area: 1 / 2 / 2 / 3; background-color: yellow}
+.auth3 { grid-area: 2 / 1 / 3 / 2; background-color: green}
+.auth4 { grid-area: 2 / 2 / 3 / 3; background-color: blue}
