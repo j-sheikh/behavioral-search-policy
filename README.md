@@ -1,5 +1,5 @@
 # Semantic Search-based online policy
-[Project page](https://j-sheikh.github.io/behavioral-search-policy/) | [Video](https://www.youtube.com/watch?v=IEEhlYKjs-E&feature=youtu.be) | [arXiv]()
+[Project page](https://j-sheikh.github.io/behavioral-search-policy/) | [Video](https://www.youtube.com/watch?v=IEEhlYKjs-E&feature=youtu.be) | [arXiv](https://arxiv.org/abs/2312.05925)
 
 Authors: Jannik Sheikh, Andrew Melnik, Gora Chand Nandi, Robert Haschke
 
