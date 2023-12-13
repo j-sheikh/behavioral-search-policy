@@ -186,11 +186,23 @@ body {
 .side-by-side-image {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; /* Add rounded corners for a nicer look */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   margin-bottom: 15px;
 }
 
 .is-bold {
+  font-weight: bold;
+}
+.stacked-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-bottom: 5px;
   font-weight: bold;
 }
