@@ -195,14 +195,18 @@ body {
   font-weight: bold;
 }
 .stacked-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  margin-bottom: 15px;
-}
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
 
-.title {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
+  .title {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
