@@ -177,3 +177,8 @@ body {
 .author-mail {
   font-family: monospace;
 }
+.cluster-image {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 10px; 
+}
