@@ -177,3 +177,42 @@ body {
 .author-mail {
   font-family: monospace;
 }
+.cluster-image {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+.side-by-side-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 15px;
+}
+
+.is-bold {
+  font-weight: bold;
+}
+.stacked-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  }
+
+.title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+.image-container {
+  text-align: center;
+}
+.centered-text {
+  text-align: center;
+}
