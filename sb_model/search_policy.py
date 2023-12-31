@@ -38,7 +38,7 @@ from utils.utils.import (
 
 class SBP:
     def __init__(self, input_folder, main_save_folder):
-        self.input_folder = input_folder #'/media/jannik/media/thesis/GitHub/hulc/dataset/task_ABC_D/training'
+        self.input_folder = input_folder
         self.lang_ann = np.load(f'{self.input_folder}/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy',
                                 allow_pickle=True)
         self.lang_ann = self.lang_ann[()]
@@ -82,8 +82,8 @@ class SBP:
         except FileNotFoundError:
             print("Error: File not found.")
         try:
-            with open('./utils/task_object_mapping.txt', 'r') as f:
-                self.task_object_mapping = json.load(f)
+            with open('./utils/task_object_mapping.txt', 'r') as f_mapping:
+                self.task_object_mapping = json.load(f_mapping)
             print("Successfully loaded task_object_mapping_dict")
         except FileNotFoundError:
             print("Error: File2 not found.")
