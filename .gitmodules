@@ -1,7 +1,0 @@
-[submodule "hulc"]
-	path = hulc
-	url = https://github.com/lukashermann/hulc
-	
-[submodule "calvin"]
-	path = calvin
-	url = https://github.com/mees/calvin
