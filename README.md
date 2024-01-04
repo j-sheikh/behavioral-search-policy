@@ -37,5 +37,9 @@ sh install.sh
 ```
 ## Evaluation
 
-Follow the instructions in the [HULC repo](https://github.com/lukashermann/hulc). For evaluating our search-based policy reference in hulc/evaluation/evaluate_policy.py to either sb_model/evaluation/evaluation_netural_position.py or sb_model/evaluation/evaluation_single.py. 
-
+Follow the instructions in the [HULC repo](https://github.com/lukashermann/hulc). 
+For evaluating our search-based policy reference in hulc/evaluation/evaluate_policy.py to either sb_model/evaluation/evaluation_netural_position.py or sb_model/evaluation/evaluation_single.py. 
+```bash
+# Replace Line
+from calvin_agent.evaluation.evaluate_policy import evaluate_policy
+```
