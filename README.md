@@ -19,14 +19,13 @@ Reinforcement learning and Imitation Learning approaches utilize policy learning
 
 ```bash
 # Clone the repository with the submodule
-
 git clone --recursive https://github.com/j-sheikh/behavioral-search-policy
+```
 
+### 2. Install 'calvin' and 'hulc'
 
-### 2. Install 'calvin' and 'hulc
-
-# For more details check the corresponding repos [CALVIN](https://github.com/mees/calvin) and [HULC](https://github.com/lukashermann/hulc). 
-
+#### For more details check the corresponding repos [CALVIN](https://github.com/mees/calvin) and [HULC](https://github.com/lukashermann/hulc). 
+```bash
 # Navigate to the 'calvin' submodule and run installation script
 cd calvin
 sh install.sh
@@ -35,8 +34,8 @@ cd ..
 # Navigate to the 'hulc' submodule and run installation script
 cd hulc
 sh install.sh
-
+```
 ## Evaluation
 
-Follow the instructions in the [HULC repo](https://github.com/lukashermann/hulc). For evaluating our search based policy reference in hulc/evaluation/evaluate_policy.py to either sb_model/evaluation/evaluation_netural_position.py or sb_model/evaluation/evaluation_single.py. 
+Follow the instructions in the [HULC repo](https://github.com/lukashermann/hulc). For evaluating our search-based policy reference in hulc/evaluation/evaluate_policy.py to either sb_model/evaluation/evaluation_netural_position.py or sb_model/evaluation/evaluation_single.py. 
 
